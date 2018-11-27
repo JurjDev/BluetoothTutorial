@@ -5,7 +5,7 @@ import PackageDescription
 let package = Package(
     name: "Tutorials",
     dependencies: [
-    	//.Package(url: "https://github.com/uramio/SwiftyGPIO.git", majorVersion: 1),
+    	.Package(url: "https://github.com/uraimo/SwiftyGPIO.git", majorVersion: 1),
     	.Package(url: "https://github.com/PureSwift/GATT.git", "1.7.0")
     ]
 )
